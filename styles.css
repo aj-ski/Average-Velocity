@@ -4,10 +4,8 @@
     box-sizing: border-box;
 }
 
-.headings * {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+.headings {
+    text-align: center;
 }
 
 .input * {
