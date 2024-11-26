@@ -2,14 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: default;
+}
+
+body {
+    background-color: #86CB92;
 }
 
 .headings {
+    padding-top: 40px;
     text-align: center;
 }
 
 label {
     padding-left: 25px;
+}
+
+input:hover {
+    cursor: text;
 }
 
 .input {
@@ -26,6 +36,22 @@ label {
 }
 
 .output {
-    padding-top: 75px;
+    padding-top: 50px;
     text-align: center;
+}
+
+.output h2 {
+    padding-top: 20px;
+}
+
+#submit {
+    border-width: 1px;
+    border-radius:  15px;
+    margin-top: 15px;
+    height: 50px;
+    width: 100px;
+}
+
+.hidden {
+    display: none;
 }
