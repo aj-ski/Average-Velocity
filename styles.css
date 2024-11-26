@@ -8,17 +8,24 @@
     text-align: center;
 }
 
-.input * {
-    text-align: center;
-    display: block;
-    margin: 0 auto;
+label {
+    padding-left: 25px;
 }
 
 .input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-top: 40px;
 }
 
 
 .label {
     padding-right: 30px;
+}
+
+.output {
+    padding-top: 75px;
+    text-align: center;
 }
