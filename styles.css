@@ -15,6 +15,7 @@ body {
     padding-top: 40px;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
+    color: #3C493F;
 }
 
 .headings h1 {
@@ -34,6 +35,8 @@ label {
     padding-left: 25px;
     font-size: 20px;
     font-family: 'Inter', sans-serif;
+    font-weight: 450;
+    color: #3C493F;
 }
 
 .input {
@@ -46,6 +49,9 @@ label {
 
 input {
     text-align: center;
+    background-color: #C6E0FF;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 input:hover {
