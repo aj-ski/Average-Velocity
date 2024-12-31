@@ -59,9 +59,25 @@ input:hover {
     cursor: text;
 }
 
+/* Submit */
+#submit {
+    border-width: 1px;
+    border-radius:  15px;
+    margin-top: 3px;
+    height: 50px;
+    width: 100px;
+    background-color: #C6E0FF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+
+#submit:hover {
+    cursor: pointer;
+}
+
 /* Output */
 .output {
-    padding-top: 50px;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -69,14 +85,6 @@ input:hover {
     padding-top: 20px;
 }
 
-/* Submit */
-#submit {
-    border-width: 1px;
-    border-radius:  15px;
-    margin-top: 15px;
-    height: 50px;
-    width: 100px;
-    background-color: #C6E0FF;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 15px;
+.hide {
+    visibility: hidden;
 }
